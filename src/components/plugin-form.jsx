@@ -58,7 +58,7 @@ export default function PluginForm() {
 
 	const form = useForm({
 		resolver: zodResolver(formSchema),
-		defaultValues: usePluginStore.getState().pluginData,
+		// defaultValues: usePluginStore.getState().pluginData,
 	});
 
 	useEffect(() => {

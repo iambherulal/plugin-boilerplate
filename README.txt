@@ -29,7 +29,7 @@ You can generate a plugin boilerplate with a single click and install it directl
 3. Navigate to the Tools menu in the WordPress admin and click on "Plugin Boilerplate"
 
 == Screenshots == 
-1. ![Screenshot 1](screenshot-1.png)
+1. Settings view screenshot-1.png
 
 == Frequently Asked Questions ==
 

@@ -8,12 +8,10 @@ const _ = require('lodash');
 const asyncExec = util.promisify(exec);
 
 const pluginFiles = [
-    // 'assets/',
+    'assets/',
     'build/',
-    // 'includes/',
-    // 'languages/',
     'templates/',
-    'changelog.txt',
+    'README.txt',
     'plugin-boilerplate.php',
 ];
 
