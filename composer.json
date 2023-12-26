@@ -1,18 +1,26 @@
 {
-    "name": "bherulal/plugin-boilerplate",
-    "description": "WordPress Plugin Boilerplate Generator",
-    "type": "wordpress-plugin",
-    "license": "GPL-2.0-or-later",
-    "autoload": {
-        "psr-4": {
-            "Bherulal\\PluginBoilerplate\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Bheru Lal Gameti",
-            "email": "bherulalgameti24@gmail.com"
-        }
-    ],
-    "require": {}
+	"name": "bherulal/plugin-boilerplate",
+	"description": "WordPress Plugin Boilerplate Generator",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"autoload": {
+		"psr-4": {
+			"Bherulal\\PluginBoilerplate\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Bheru Lal Gameti",
+			"email": "bherulalgameti24@gmail.com"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"phpcompatibility/phpcompatibility-wp": "*"
+	}
 }

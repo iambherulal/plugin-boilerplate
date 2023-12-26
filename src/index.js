@@ -1,4 +1,4 @@
-import App from "./App";
+import App from './App';
 import { render } from '@wordpress/element';
 
 /**
@@ -7,4 +7,4 @@ import { render } from '@wordpress/element';
 import './style/tailwind.css';
 
 // Render the App component into the DOM
-render(<App />, document.getElementById('pbapp'));
+render( <App />, document.getElementById( 'pbapp' ) );

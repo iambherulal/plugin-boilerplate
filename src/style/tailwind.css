@@ -70,10 +70,6 @@
     * {
         @apply border-border;
     }
-
-    /* body.toplevel_page_plugin-boilerplate {
-        @apply bg-background text-foreground;
-    } */
 }
 
 body.toplevel_page_plugin-boilerplate {
