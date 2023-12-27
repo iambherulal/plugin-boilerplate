@@ -54,7 +54,7 @@ export default function PluginForm() {
 	const [loading, setLoading] = React.useState(false);
 	const [toast, setToast] = React.useState(false);
 	const { pluginData } = usePluginStore();
-	const { nonce, rest_url } = wpdata;
+	const { nonce, rest_url, site_url } = wpdata;
 
 	const form = useForm({
 		resolver: zodResolver(formSchema),
@@ -96,7 +96,7 @@ export default function PluginForm() {
 			setToast({
 				variant: 'success',
 				message: pluginData?.install
-					? `Plugin installed successfully. <a htef="/wp-admin/plugins.php">Visit plugin</a>`
+					? `Plugin installed successfully. <a href="${site_url}/wp-admin/plugins.php">Visit plugin</a>`
 					: 'Plugin downloaded successfully.',
 			});
 		} catch (error) {

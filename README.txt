@@ -47,7 +47,7 @@ Absolutely! The Plugin Boilerplate Generator is designed to assist both new and 
 * Initial release
 
 == Contributions ==
-We welcome contributions to enhance this plugin. Visit our GitHub repository to contribute.
+We welcome contributions to enhance this plugin. Visit our [GitHub repository](https://github.com/iambherulal/plugin-boilerplate) to contribute.
 
 == Upgrade Notice ==
 

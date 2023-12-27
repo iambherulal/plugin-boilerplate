@@ -89,6 +89,7 @@ class PluginBoilerplate {
                 'pb-script', 'pb', array(
 					'nonce' => wp_create_nonce( 'wp_rest' ),
 					'rest_url' => esc_url_raw( rest_url() . 'pb/v1' ),
+                    'site_url' => esc_url_raw( site_url() ),
                 )
             );
         }
